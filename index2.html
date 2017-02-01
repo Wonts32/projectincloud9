@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    </head>
+    <body>
+        <p> Click the button to create a meter element with a specified value </p>
+        
+        <button onclick="myFunction()"> Try it</button>
+    
+    <script> 
+    function myFunction()
+    {
+        var x = document.createElement("METER");
+        x.setAttribute("min","0");
+        x.setAttribute("max","100");
+        x.setAttribute("value","65");
+        document.body.appendChild(x);
+    }
+    
+    </script>
+        
+        
+        
+    </body>
+    
+    
+    
+    
+    
+    
+</html>
